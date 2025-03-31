@@ -6270,7 +6270,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GinaAndMia1[] = {
     {
     .iv = 0,
     .lvl = 6,
-    .species = SPECIES_CASTFORM,
+    .species = SPECIES_SEEDOT,
     },
     {
     .iv = 0,
