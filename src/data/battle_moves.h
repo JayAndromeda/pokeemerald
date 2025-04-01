@@ -767,7 +767,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .target = MOVE_TARGET_USER,
         .priority = 0,
         .flags = FLAG_SNATCH_AFFECTED,
-        .category = CATEGORY_MIST,
+        .category = CATEGORY_STATUS,
     },
 
     [MOVE_WATER_GUN] =
@@ -879,7 +879,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
-        .category = CATEGORY_SEPCIAL,
+        .category = CATEGORY_SPECIAL,
     },
 
     [MOVE_HYPER_BEAM] =
@@ -1201,7 +1201,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
-        .category = CATEGORY_SEPCIAL,
+        .category = CATEGORY_SPECIAL,
     },
 
     [MOVE_THUNDER_WAVE] =
@@ -3147,7 +3147,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
-        .category = CATEGORY_PHSYICAL,
+        .category = CATEGORY_PHYSICAL,
     },
 
     [MOVE_DRAGON_BREATH] =
@@ -4841,7 +4841,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
-        .category = CATEGORY_SEPCIAL,
+        .category = CATEGORY_SPECIAL,
     },
 
     [MOVE_WATER_SPORT] =
